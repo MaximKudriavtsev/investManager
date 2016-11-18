@@ -1,0 +1,40 @@
+{
+  "name": "anyProject",
+  "version": "1.0.0",
+  "description": "any project app",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "MaximKudriavtsev",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.17.0",
+    "babel-eslint": "^7.0.0",
+    "babel-loader": "^6.2.5",
+    "babel-plugin-transform-runtime": "^6.15.0",
+    "babel-preset-es2015": "^6.16.0",
+    "babel-preset-react": "^6.16.0",
+    "babel-preset-stage-0": "^6.16.0",
+    "css-loader": "^0.25.0",
+    "postcss-loader": "^1.1.0",
+    "eslint": "^3.8.1",
+    "eslint-loader": "^1.6.0",
+    "eslint-plugin-react": "^6.4.1",
+    "express": "^4.14.0",
+    "react-hot-loader": "1.3.0",
+    "webpack": "^1.13.2",
+    "webpack-dev-middleware": "^1.8.4",
+    "webpack-hot-middleware": "^2.13.0"
+  },
+  "dependencies": {
+    "babel-polyfill": "6.3.14",
+    "babel-runtime": "6.3.19",
+    "react": "^15.3.2",
+    "react-addons-css-transition-group": "^15.3.2",
+    "react-dom": "^15.3.2",
+    "react-redux": "^4.0.6",
+    "redux": "^3.0.6",
+    "style-loader": "^0.13.1"
+  }
+}
