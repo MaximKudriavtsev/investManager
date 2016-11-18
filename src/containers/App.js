@@ -1,14 +1,13 @@
 import React, { Component } from "react"
 
-import NewComponent from "../components/NewComponent"
+import List from "../containers/List"
 
 import "../styles/app.css"
 
 export default class App extends Component {
     render() {
-        return <div>
-            <div>Some text in App...</div>
-            <NewComponent />
+        return <div className="im">
+            <List />
         </div>
     }
 }

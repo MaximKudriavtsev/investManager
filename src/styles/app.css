@@ -1,4 +1,51 @@
 body{
     margin: 0;
-    background: #f9f9f9;
+    background: #ccc;
 }
+.im{
+    width: 800px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+/*INPUT BOX start*/
+.im_list_importBox {
+	height: 137px;
+	width: 100%;
+    background: #f2f2f2;
+    margin-top: 15px;
+    border-radius: 4px;
+    box-shadow: 0 0 10px gray;
+}
+.im_list_importBox_block {
+	width: 33.33%;
+	float: left;
+}
+.im_list_importBox_block_info {
+	height: 50px;
+}
+.im_list_importBox_block_field {
+	height: 62px;
+}
+.im_list_importBox_boxPanell {
+    float: left;
+}
+.im_list_importBox_boxPanell_delete {
+    background: #f2f2f2;
+    box-sizing: border-box;
+	box-shadow: inset 0 0px 3px #ddd;
+    border-radius: 4px;
+}
+
+input {
+    width: 236px;
+    padding: 12px 20px;
+    margin: 3px 3px;
+    box-sizing: border-box;
+	box-shadow: inset 0 1px 3px #ddd;
+    border-radius: 4px;
+}
+input:focus {
+    outline: none;
+}
+/*INPUT BOX end*/
