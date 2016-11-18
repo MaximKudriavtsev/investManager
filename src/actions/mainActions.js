@@ -14,3 +14,11 @@ export function addInfo(id, income, invSum, credit) {
         credit: credit
     };
 }
+
+export function addWindow() {
+    return {
+        type: "ADD_WINDOW",
+    };
+}
+
+

@@ -49,3 +49,25 @@ input:focus {
     outline: none;
 }
 /*INPUT BOX end*/
+
+/*ADD start*/
+.im_list_add {
+    height: 43px;
+    margin-top: 15px;
+}
+
+.im_list_add_button {
+    width: 100%;
+    padding: 12px 20px;
+    background: #f2f2f2;
+    box-sizing: border-box;
+	box-shadow: inset 0 0px 3px #ddd;
+    border-radius: 4px;
+}
+button:hover {
+    background: #ccc;
+}
+button:focus {
+    outline: none;
+}
+/*ADD end*/

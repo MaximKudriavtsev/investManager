@@ -21,6 +21,23 @@ const initialState = {
 export default function main(state = initialState, action) {
     switch (action.type) {
 
+         case "ADD_WINDOW":
+            {
+                const newId = state.inputValue + 1;
+                return { ...state,
+                    inputValue: ++state.inputValue,
+                    dataById: {
+                    ...state.dataById,
+                        [newId]: {
+                            id: newId,
+                            income: "",
+                            invSum: "",
+                            credit: "",
+                        }
+                    }
+                }
+            }
+
         case "DELETE_WINDOW": {
             let newData = state.dataById;
             delete newData[action.id];
@@ -43,6 +60,8 @@ export default function main(state = initialState, action) {
                 }
             }
         }
+
+        
 
         default:
             return state
