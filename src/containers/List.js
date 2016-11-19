@@ -1,5 +1,6 @@
 import React, { Component } from "react"
 import { connect } from "react-redux"
+import ReactCSSTransitionGroup from "react-addons-css-transition-group"
 
 import InputBox from "../components/InputBox"
 
@@ -18,7 +19,12 @@ class List extends Component {
         }
 
         return <div className="im_list">
+            <ReactCSSTransitionGroup
+                transitionName="example"
+                transitionEnterTimeout={500}
+                transitionLeaveTimeout={300}>
                 {inputBoxTemplate}
+            </ReactCSSTransitionGroup>
         </div>
     }
 }
