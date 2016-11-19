@@ -1,12 +1,12 @@
 {
-  "name": "anyProject",
+  "name": "investManager",
   "version": "1.0.0",
-  "description": "any project app",
+  "description": "Investment manager app",
   "main": "index.js",
   "scripts": {
     "start": "node server.js"
   },
-  "author": "MaximKudriavtsev",
+  "author": "MaximKudriavtsev, Ivan Tugolucov, Irina Pravdivec",
   "license": "MIT",
   "devDependencies": {
     "babel-core": "^6.17.0",
