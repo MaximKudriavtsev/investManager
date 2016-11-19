@@ -31,6 +31,9 @@ class InputBox extends Component {
             <div className="im_list_importBox_header">
                 <div className={"close"} onClick={:: this.onDeleteClick}></div>
             </div>
+            <div className="im_list_importBox_header">
+                <div className={"close"} onClick={:: this.onDeleteClick}></div>
+            </div>
             <div className="im_list_importBox_block">
                 <div className="im_list_importBox_block_info">
                     Income
@@ -55,7 +58,7 @@ class InputBox extends Component {
                 <div className="im_list_importBox_block_field">
                     <input type="text" id="credit" onChange={:: this.onIncomeChange} />
                 </div>
-                <button onClick={::this.onDeleteClick}>Delete</button>
+                
             </div>
             
         </div >

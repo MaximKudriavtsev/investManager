@@ -93,5 +93,34 @@ button:focus {
     padding: 10px;
     margin-top: 15px;   
     background: #f2f2f2;
+    box-shadow: 0 0 10px gray;
+    border-radius: 4px;
 }
 /*INFO BOX end*/
+
+/*CROSS start*/
+.im_list_importBox_header {
+    position: relative;
+    cursor: pointer;
+    display: block;
+}
+.close:before,
+.close:after {
+    content: "";
+    position: absolute;
+    top: 10px;
+    right: 0px;
+    width: 26px;
+    height: 2px;
+    background: rgba(0,0,0,1);
+    display: block;
+}
+.close:before {
+    webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+.close:after {
+    webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+/*CROSS end*/
