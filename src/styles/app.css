@@ -84,3 +84,14 @@ button:focus {
     display: none;
 }
 /*CHART end*/
+
+/*INFO BOX start*/
+.im_info_text {
+    height: 210px;
+    width: 100%;
+    font-size: 22px; 
+    padding: 10px;
+    margin-top: 15px;   
+    background: #f2f2f2;
+}
+/*INFO BOX end*/
