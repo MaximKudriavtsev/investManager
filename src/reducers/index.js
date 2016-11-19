@@ -8,12 +8,6 @@ const initialState = {
             income: "",
             invSum: "",
             credit: "",
-        },
-        2: {
-            id: 2,
-            income: "",
-            invSum: "",
-            credit: ""
         }
     }
 };
@@ -60,8 +54,6 @@ export default function main(state = initialState, action) {
                 }
             }
         }
-
-        
 
         default:
             return state

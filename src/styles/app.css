@@ -71,3 +71,16 @@ button:focus {
     outline: none;
 }
 /*ADD end*/
+
+/*CHART start*/
+.im_chart {
+    margin-top: 15px;
+    background: #f2f2f2;
+    box-shadow: 0 0 10px gray;
+    border-radius: 4px;
+}
+
+.im_chart-hide {
+    display: none;
+}
+/*CHART end*/
