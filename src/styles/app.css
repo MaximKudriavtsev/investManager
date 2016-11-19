@@ -23,6 +23,7 @@ body{
 }
 .im_list_importBox_block_info {
 	height: 50px;
+    font-family: "Raleway", sans-serif;
 }
 .im_list_importBox_block_field {
 	height: 62px;
@@ -58,6 +59,7 @@ input:focus {
 
 .im_list_add_button {
     width: 100%;
+    font-family: "Raleway", sans-serif;
     padding: 12px 20px;
     background: #f2f2f2;
     box-sizing: border-box;
@@ -88,13 +90,25 @@ button:focus {
 /*INFO BOX start*/
 .im_info_text {
     height: 210px;
-    width: 100%;
+    width: 780px;
+    font-family: "Raleway", sans-serif;
     font-size: 22px; 
     padding: 10px;
     margin-top: 15px;   
     background: #f2f2f2;
     box-shadow: 0 0 10px gray;
     border-radius: 4px;
+}
+
+.im_info_label {
+    margin-top: 15px;
+    width: 100%;
+    font-family: "Raleway", sans-serif;
+    font-size: 50px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    cursor: default;
 }
 /*INFO BOX end*/
 
@@ -124,3 +138,5 @@ button:focus {
     transform: rotate(-45deg);
 }
 /*CROSS end*/
+
+
