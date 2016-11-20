@@ -98,7 +98,6 @@ input:focus {
 
 /*INFO BOX start*/
 .im_info_text {
-    height: 210px;
     width: 100%;
     font-family: "Raleway", sans-serif;
     font-size: 22px; 
