@@ -7,9 +7,9 @@ export default class InfoBox extends Component {
             <b><font color="#b10058">Invest</font>manager</b>
             </div>
             <div className="im_info_text">
-                Evaluate the investment attractiveness of the project clearly and simply. 
-                Make a comprative analisys of several investment projects and obtain graphical view of return on investment.
-                Fill total expected profit of the project, it's investment and the bank loan (if taken).
+                Estimate the investment project attractivity clearly and simply. 
+                Make a comprative analisys of several investment projects and receive graphical view of return on investment.
+                Fill in the «estimated project profit», the «personal investments» and the «total loan payments» fields.
             </div>
         </div>
     }
